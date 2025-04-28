@@ -1,0 +1,17 @@
+ public class Solution {
+public static void main(String args[]) {
+int n = 4 , r = 2;
+int fact = 1 , fact2 = 1, fact3 = 1;
+for(int i=0; i<n; i++) {
+fact = fact*i;
+}
+for(int i=0; i<r; i++) {
+fact1 = fact1*i;
+}
+for(int i=0; i<(n-r); i++) {
+fact2 = fact2*i;
+}
+int result = fact/(fact1*fact2);
+System.out.println(result);
+}
+}
